@@ -1,12 +1,11 @@
-# CE587 Structural Optimization — Homework 1
+# CE587 Assignment 1 — Structural Optimization
 
-This project contains the final report and Excel Solver workbook for Questions 1–3, together with the calculation code and supporting verification files.
+This repository contains the final report and Excel Solver workbook for Questions 1–3, along with calculation code and supporting verification files.
 
 ## Main deliverables
 
 - `CE587_HW1_Final.pdf` — final report
-- `CE587_HW1_Solver.xlsx` — workbook with one Solver model for each question
-- `CE587_HW1_Submission_Complete.zip` — packaged submission files
+- `CE587_HW1_Solver.xlsx` — workbook with a Solver model for each question
 
 ## Project contents
 
@@ -15,7 +14,6 @@ This project contains the final report and Excel Solver workbook for Questions 1
 - `figures/submission/` — figures used in the final report
 - `verification/` — independent checks and Solver run records
 - `CE587 Homework 1 (2026-2027 Fall Semeter).pdf` — assignment source
-- `archive/` — earlier deliverables and unrelated files retained locally
 
 ## Rebuild the report
 
@@ -26,4 +24,4 @@ pdflatex -interaction=nonstopmode -halt-on-error CE587_HW1_Final.tex
 pdflatex -interaction=nonstopmode -halt-on-error CE587_HW1_Final.tex
 ```
 
-The calculation scripts use Python packages listed in `python/requirements.txt`.
+The Python calculation scripts use the packages listed in `python/requirements.txt`.
