@@ -10,13 +10,50 @@ __pycache__/
 *.out
 *.toc
 
-# Local archives and generated build/review data
+# Local archives, checkpoints, builds and package copy
 /archive/
+/checkpoints/
 /build/
+/CE587_HW1_Submission_Complete.zip
 /.pdf_review_*/
 /.workbook_edit*
+
+# Superseded standalone Q1 rebuild and generated previews
+/Q1/
+/figures/*.pdf
+/figures/*.png
+/Q2/*preview.pdf
+/Q2/*staging.xlsx
+/Q2/*-*.png
+/Q2/graph-*.png
+/Q2/model-*.png
+/Q2/settings-*.png
+/Q2/report-*.png
+/Q2/final_report-*.png
+/Q3/*preview.pdf
+/Q3/*staging.xlsx
+/Q3/*-*.png
+/Q3/graph-*.png
+/Q3/model-*.png
+/Q3/settings-*.png
+/Q3/report-*.png
+
+# Rendered review copies
+/report/appendix_sheets/
+/report/final_review/
+/report/fresh_solver_review/
+/report/polish_review/
+/report/screenshot_review/
+/verification/appendix_review/
+/verification/*.png
+/verification/*-*.png
+/verification/fresh_solver/*.xlsx
+/verification/fresh_solver/*_full.jpg
+/verification/fresh_solver/*_start.jpg
+/verification/q1_*preview.pdf
+/verification/q1_*png
+/verification/q1_staging.xlsx
 
 # OS/editor files
 .DS_Store
 Thumbs.db
-/checkpoints/
