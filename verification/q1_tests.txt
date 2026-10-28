@@ -1,0 +1,12 @@
+test_activity_and_distinct_optima (test_q1_beam_column.TestQ1.test_activity_and_distinct_optima) ... ok
+test_entire_optimal_segment (test_q1_beam_column.TestQ1.test_entire_optimal_segment) ... ok
+test_independent_and_cancellation (test_q1_beam_column.TestQ1.test_independent_and_cancellation) ... ok
+test_invalid_and_violations (test_q1_beam_column.TestQ1.test_invalid_and_violations) ... ok
+test_multistart_nonuniqueness (test_q1_beam_column.TestQ1.test_multistart_nonuniqueness) ... ok
+test_reference_formulas (test_q1_beam_column.TestQ1.test_reference_formulas) ... ok
+test_units (test_q1_beam_column.TestQ1.test_units) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.200s
+
+OK

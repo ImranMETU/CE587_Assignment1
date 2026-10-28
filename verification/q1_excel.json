@@ -1,0 +1,14 @@
+{
+    "return_code":  0,
+    "R_cm":  2.5231325218359908,
+    "t_cm":  0.12615662609179956,
+    "mass_kg":  4.6799999993167924,
+    "area_m2":  0.0001999999999708031,
+    "inertia_m4":  6.36619772181708E-08,
+    "self_weight_N_m":  15.287999997768189,
+    "stress_Pa":  250000000.03649613,
+    "deflection_m":  0.0012060770548432754,
+    "radius_thickness_ratio":  19.999999999999996,
+    "recalculation_test":  "passed: t +1% gives mass +1%; deflection unchanged; restored",
+    "native_model_saved":  true
+}

@@ -1,0 +1,14 @@
+{
+    "return_code":  0,
+    "H_cm":  50,
+    "D_cm":  3.423228131299636,
+    "mass_kg":  6.6054480656231638,
+    "length_cm":  85.440037453175307,
+    "area_cm2":  9.2036811826785314,
+    "inertia_cm4":  6.7408283514731115,
+    "force_N":  34176.01498127012,
+    "stress_N_cm2":  3713.2984403664377,
+    "pcr_N":  68352.029963719469,
+    "recalculation_test":  "passed: D +1% gives mass x1.01^2 and Pcr x1.01^4; restored",
+    "native_model_saved":  true
+}

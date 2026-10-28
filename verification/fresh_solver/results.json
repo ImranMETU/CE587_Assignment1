@@ -1,0 +1,93 @@
+[
+  {
+    "question": 1,
+    "start_cm": [
+      3,
+      0.15
+    ],
+    "result_cm": [
+      2.523132521835991,
+      0.12615662609179956
+    ],
+    "excel_mass_kg": 4.6799999993167924,
+    "python_reference_mass_kg": 4.68,
+    "absolute_mass_difference_kg": 6.832072685369894e-10,
+    "max_normalized_constraint_residual": 1.4598455777559138e-10,
+    "independent_responses": {
+      "area_m2": 0.00019999999997080312,
+      "inertia_m4": 6.36619772181708e-08,
+      "mass_kg": 4.6799999993167924,
+      "stress_Pa": 250000000.0364961,
+      "self_weight_N_m": 15.287999997768189,
+      "deflection_m": 0.0012060770548432754,
+      "radius_thickness_ratio": 19.999999999999996,
+      "simplified_deflection_m": 0.0012060770548432752,
+      "axial_residual_Pa": 0.036496102809906006,
+      "deflection_residual_m": -0.0017939229451567247
+    },
+    "solver_message": "Solver found a solution. All Constraints and optimality conditions are satisfied."
+  },
+  {
+    "question": 2,
+    "start_cm": [
+      30,
+      20
+    ],
+    "result_cm": [
+      40.0,
+      39.83012014361088
+    ],
+    "excel_mass_kg": 334.4476875622004,
+    "python_reference_mass_kg": 334.44768492993893,
+    "absolute_mass_difference_kg": 2.6322614417040313e-06,
+    "max_normalized_constraint_residual": 0.0,
+    "independent_responses": {
+      "area": 0.004260480096333907,
+      "inertia": 0.00033939394206039655,
+      "mass": 334.4476875622117,
+      "bending": 164999998.7036733,
+      "shear": 6572009.453415344,
+      "bending_residual_Pa": -1.2963266968727112,
+      "shear_residual_Pa": -43427990.54658466,
+      "thickness_m": 0.0016987985638912684
+    },
+    "solver_message": "Solver found a solution. All Constraints and optimality conditions are satisfied."
+  },
+  {
+    "question": 3,
+    "start_cm": [
+      100,
+      5
+    ],
+    "result_cm": [
+      50.0,
+      3.423228131299636
+    ],
+    "excel_mass_kg": 6.605448065623164,
+    "python_reference_mass_kg": 6.60544806556619,
+    "absolute_mass_difference_kg": 5.6973981088503933e-11,
+    "max_normalized_constraint_residual": 0.0,
+    "independent_responses": {
+      "length_cm": 85.44003745317531,
+      "area_cm2": 9.203681182678531,
+      "inertia_cm4": 6.740828351473113,
+      "force_N": 34176.01498127013,
+      "stress_N_cm2": 3713.298440366438,
+      "pcr_N": 68352.02996371948,
+      "mass_kg": 6.605448065623164,
+      "base_sides_m": [
+        1.2,
+        1.2,
+        1.2000000000000002
+      ],
+      "equilibrium_residual_N": [
+        1.8189894035458565e-12,
+        -1.0913936421275139e-11,
+        0.0
+      ],
+      "compression_residual_N_cm2": -11286.701559633562,
+      "buckling_residual_N": -1.1792290024459362e-06
+    },
+    "solver_message": "Solver found a solution. All Constraints and optimality conditions are satisfied."
+  }
+]

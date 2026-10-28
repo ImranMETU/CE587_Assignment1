@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# LaTeX build products
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+
+# Local archives and generated build/review data
+/archive/
+/build/
+/.pdf_review_*/
+/.workbook_edit*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+/checkpoints/

@@ -1,0 +1,13 @@
+{
+    "return_code":  0,
+    "Ro_cm":  40,
+    "Ri_cm":  39.830120143610877,
+    "mass_kg":  334.44768756220037,
+    "area_m2":  0.0042604800963337627,
+    "inertia_m4":  0.00033939394206038983,
+    "bending_Pa":  164999998.70367655,
+    "shear_Pa":  6572009.4534154739,
+    "thickness_m":  0.0016987985638912306,
+    "recalculation_test":  "passed: Ri decreased 0.01 cm; annular mass checked; restored",
+    "native_model_saved":  true
+}

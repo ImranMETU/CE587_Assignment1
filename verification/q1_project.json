@@ -1,0 +1,51 @@
+{
+  "q2_q3_source_result_and_figure_hashes_unchanged": true,
+  "preserved_existing_sheets": [
+    "Q2_Cantilever",
+    "Q2 Solver setup",
+    "Q2 Graphical",
+    "Q3_Tripod",
+    "Q3 Solver setup",
+    "Q3 Graphical"
+  ],
+  "preserved_populated_cells": 272,
+  "q2_q3_formulas_values_formats_cached_responses_named_inputs_and_image_counts": "passed",
+  "formula_errors": [],
+  "q1_excel_python_response_parity": true,
+  "q1_excel_x_cm": [
+    2.523132521835991,
+    0.12615662609179956
+  ],
+  "q1_excel_independent": {
+    "area_m2": 0.00019999999997080312,
+    "inertia_m4": 6.36619772181708e-08,
+    "mass_kg": 4.6799999993167924,
+    "stress_Pa": 250000000.0364961,
+    "self_weight_N_m": 15.287999997768189,
+    "deflection_m": 0.0012060770548432754,
+    "radius_thickness_ratio": 19.999999999999996,
+    "simplified_deflection_m": 0.0012060770548432752,
+    "axial_residual_Pa": 0.036496102809906006,
+    "deflection_residual_m": -0.0017939229451567247
+  },
+  "q1_excel_g": [
+    1.4598455777559138e-10,
+    -0.5979743150522415,
+    -1.1102230246251565e-16,
+    -0.20733454042093935,
+    -0.8738433739082004,
+    -0.20733454042093935,
+    -0.8738433739082004
+  ],
+  "q1_excel_activity": {
+    "axial stress": "active",
+    "self-weight deflection": "inactive",
+    "R/t": "active",
+    "minimum radius": "inactive",
+    "maximum radius": "inactive",
+    "minimum thickness": "inactive",
+    "maximum thickness": "inactive"
+  },
+  "q1_excel_mass_error_kg": -6.832072685369894e-10,
+  "native_q1_solver_model_present": true
+}

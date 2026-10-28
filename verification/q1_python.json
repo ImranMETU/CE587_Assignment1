@@ -1,0 +1,786 @@
+{
+  "analytic": {
+    "product_m2": 3.183098861837907e-05,
+    "product_cm2": 0.3183098861837907,
+    "mass_kg": 4.68,
+    "optimal_R_interval_cm": [
+      2.0,
+      2.52313252202016
+    ],
+    "representative_m": [
+      0.0252313252202016,
+      0.0012615662610100799
+    ],
+    "representative_cm": [
+      2.52313252202016,
+      0.12615662610100797
+    ],
+    "deflection_radius_limit_cm": 1.5998046755776156,
+    "mass_coefficient_kg_cm2": 14.702653618800234
+  },
+  "numerical_x_cm": [
+    2.5231325220201604,
+    0.12615662610100806
+  ],
+  "responses": {
+    "area_m2": 0.0002000000000000001,
+    "inertia_m4": 6.366197723675818e-08,
+    "mass_kg": 4.680000000000002,
+    "stress_Pa": 249999999.99999988,
+    "self_weight_N_m": 15.288000000000007,
+    "deflection_m": 0.0012060770546672064,
+    "radius_thickness_ratio": 19.999999999999993
+  },
+  "independent": {
+    "area_m2": 0.0002000000000000001,
+    "inertia_m4": 6.366197723675819e-08,
+    "mass_kg": 4.6800000000000015,
+    "stress_Pa": 249999999.99999988,
+    "self_weight_N_m": 15.288000000000007,
+    "deflection_m": 0.0012060770546672062,
+    "radius_thickness_ratio": 19.999999999999993,
+    "simplified_deflection_m": 0.0012060770546672064,
+    "axial_residual_Pa": -1.1920928955078125e-07,
+    "deflection_residual_m": -0.001793922945332794
+  },
+  "utilization": [
+    0.9999999999999996,
+    0.40202568488906876,
+    0.9999999999999998,
+    0.7926654595212022,
+    0.126156626101008,
+    0.7926654595212019,
+    0.12615662610100806
+  ],
+  "g": [
+    -4.440892098500626e-16,
+    -0.5979743151109312,
+    -2.220446049250313e-16,
+    -0.20733454047879785,
+    -0.873843373898992,
+    -0.20733454047879807,
+    -0.8738433738989919
+  ],
+  "activity": {
+    "axial stress": "active",
+    "self-weight deflection": "inactive",
+    "R/t": "active",
+    "minimum radius": "inactive",
+    "maximum radius": "inactive",
+    "minimum thickness": "inactive",
+    "maximum thickness": "inactive"
+  },
+  "accepted_runs": 25,
+  "total_runs": 25,
+  "solver_successes": 23,
+  "numerical_optimal_R_range_cm": [
+    2.000011732180638,
+    2.5231325220201604
+  ],
+  "segment_sample_count": 1001,
+  "segment_max_g": 2.220446049250313e-16,
+  "feasibility_tolerance": 1e-07,
+  "activity_tolerance": 1e-06,
+  "runs": [
+    {
+      "start_cm": [
+        2.52313252202016,
+        0.12615662610100797
+      ],
+      "initial_feasible": true,
+      "x_cm": [
+        2.523132522020159,
+        0.12615662610099965
+      ],
+      "mass_kg": 4.679999999999688,
+      "g": [
+        6.661338147750939e-14,
+        -0.5979743151109309,
+        6.59472476627343e-14,
+        -0.2073345404787975,
+        -0.873843373898992,
+        -0.20733454047874522,
+        -0.8738433738990004
+      ],
+      "mass_error_kg": -3.1175062531474396e-13,
+      "Rt_error_cm2": -2.120525977034049e-14,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 1
+    },
+    {
+      "start_cm": [
+        2,
+        0.2
+      ],
+      "initial_feasible": true,
+      "x_cm": [
+        2.0015457829784213,
+        0.15903202859048318
+      ],
+      "mass_kg": 4.679999999999922,
+      "g": [
+        1.687538997430238e-14,
+        -0.36114416410451566,
+        -0.37070984985907474,
+        -0.000772294589295397,
+        -0.8999227108510789,
+        -0.3711958472371255,
+        -0.8409679714095168
+      ],
+      "mass_error_kg": -7.815970093361102e-14,
+      "Rt_error_cm2": -5.329070518200751e-15,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 6
+    },
+    {
+      "start_cm": [
+        2.1,
+        0.16
+      ],
+      "initial_feasible": true,
+      "x_cm": [
+        2.099360716949389,
+        0.1516222932123487
+      ],
+      "mass_kg": 4.679999999999945,
+      "g": [
+        1.176836406102666e-14,
+        -0.4192893505054953,
+        -0.3077005127441217,
+        -0.04732903504728414,
+        -0.8950319641525305,
+        -0.34046637943967195,
+        -0.8483777067876512
+      ],
+      "mass_error_kg": -5.5067062021407764e-14,
+      "Rt_error_cm2": -3.83026943495679e-15,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 5
+    },
+    {
+      "start_cm": [
+        2.3,
+        0.15
+      ],
+      "initial_feasible": true,
+      "x_cm": [
+        2.2992432344080913,
+        0.13844115377628988
+      ],
+      "mass_kg": 4.679999999999912,
+      "g": [
+        1.887379141862766e-14,
+        -0.5158676661012336,
+        -0.1695954664884225,
+        -0.1301485766838093,
+        -0.8850378382795955,
+        -0.27767143459673693,
+        -0.8615588462237102
+      ],
+      "mass_error_kg": -8.79296635503124e-14,
+      "Rt_error_cm2": -5.995204332975845e-15,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 5
+    },
+    {
+      "start_cm": [
+        5,
+        0.5
+      ],
+      "initial_feasible": true,
+      "x_cm": [
+        2.406573232387356,
+        0.13226686057171097
+      ],
+      "mass_kg": 4.6799999999999935,
+      "g": [
+        1.3322676295501878e-15,
+        -0.5580880357692743,
+        -0.09025842830729802,
+        -0.16894280502905334,
+        -0.8796713383806322,
+        -0.24395272128060286,
+        -0.867733139428289
+      ],
+      "mass_error_kg": -6.217248937900877e-15,
+      "Rt_error_cm2": -4.996003610813204e-16,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 10
+    },
+    {
+      "start_cm": [
+        15,
+        0.9
+      ],
+      "initial_feasible": true,
+      "x_cm": [
+        2.1898456823636683,
+        0.14535722254189093
+      ],
+      "mass_kg": 4.679999999999177,
+      "g": [
+        1.7563728249569976e-13,
+        -0.46628808215462136,
+        -0.24673654185550697,
+        -0.08669363503219696,
+        -0.8905077158818165,
+        -0.3120396891789762,
+        -0.8546427774581091
+      ],
+      "mass_error_kg": -8.22453216642316e-13,
+      "Rt_error_cm2": -5.595524044110789e-14,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 10
+    },
+    {
+      "start_cm": [
+        2,
+        0.1
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.194118632473437,
+        0.14507414570603955
+      ],
+      "mass_kg": 4.679999999999956,
+      "g": [
+        9.325873406851315e-15,
+        -0.4683648192584795,
+        -0.24379405379393726,
+        -0.08847225924817326,
+        -0.8902940683763282,
+        -0.3106973023116901,
+        -0.8549258542939604
+      ],
+      "mass_error_kg": -4.3520742565306136e-14,
+      "Rt_error_cm2": -3.0531133177191805e-15,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 7
+    },
+    {
+      "start_cm": [
+        20,
+        0.1
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.37607459291902,
+        0.13396460158799148
+      ],
+      "mass_kg": 4.679999999999335,
+      "g": [
+        1.41886502547095e-13,
+        -0.5466707075206145,
+        -0.11317073138968281,
+        -0.15827558362004557,
+        -0.881196270354049,
+        -0.253534151450319,
+        -0.8660353984120085
+      ],
+      "mass_error_kg": -6.643574579356937e-13,
+      "Rt_error_cm2": -4.5130565951012613e-14,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 8
+    },
+    {
+      "start_cm": [
+        20,
+        1
+      ],
+      "initial_feasible": true,
+      "x_cm": [
+        2.5231325220201604,
+        0.12615662610100806
+      ],
+      "mass_kg": 4.680000000000002,
+      "g": [
+        -4.440892098500626e-16,
+        -0.5979743151109312,
+        -2.220446049250313e-16,
+        -0.20733454047879785,
+        -0.873843373898992,
+        -0.20733454047879807,
+        -0.8738433738989919
+      ],
+      "mass_error_kg": 2.6645352591003757e-15,
+      "Rt_error_cm2": 1.6653345369377348e-16,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 12
+    },
+    {
+      "start_cm": [
+        2,
+        1
+      ],
+      "initial_feasible": true,
+      "x_cm": [
+        2.193188897688747,
+        0.1451356454153278
+      ],
+      "mass_kg": 4.679999999999956,
+      "g": [
+        9.325873406851315e-15,
+        -0.4679139830462935,
+        -0.24443478670846086,
+        -0.08808584517837736,
+        -0.8903405551155626,
+        -0.310989387108627,
+        -0.8548643545846721
+      ],
+      "mass_error_kg": -4.3520742565306136e-14,
+      "Rt_error_cm2": -3.0531133177191805e-15,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 8
+    },
+    {
+      "start_cm": [
+        3,
+        0.11
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.3594083664503342,
+        0.13491089152263422
+      ],
+      "mass_kg": 4.679999999999794,
+      "g": [
+        4.418687638008123e-14,
+        -0.5402436955414943,
+        -0.12556786934637798,
+        -0.15232986860644826,
+        -0.8820295816774832,
+        -0.25877000091410085,
+        -0.8650891084773658
+      ],
+      "mass_error_kg": -2.0605739337042905e-13,
+      "Rt_error_cm2": -1.404432126150823e-14,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 8
+    },
+    {
+      "start_cm": [
+        18.75636845685285,
+        0.9243889873153716
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.433555844146659,
+        0.13080032124572352
+      ],
+      "mass_kg": 4.680000000000003,
+      "g": [
+        -6.661338147750939e-16,
+        -0.5678333097717634,
+        -0.06974393450649752,
+        -0.1781573433745005,
+        -0.8783222077926671,
+        -0.23547588379283535,
+        -0.8691996787542765
+      ],
+      "mass_error_kg": 3.552713678800501e-15,
+      "Rt_error_cm2": 1.6653345369377348e-16,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 8
+    },
+    {
+      "start_cm": [
+        13.803355722027396,
+        0.21916764517784426
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.1392574293317157,
+        0.14879456853550704
+      ],
+      "mass_kg": 4.679999999999998,
+      "g": [
+        4.440892098500626e-16,
+        -0.44074763978314013,
+        -0.2811372584405789,
+        -0.06509615318957584,
+        -0.8930371285334142,
+        -0.3279324575874094,
+        -0.851205431464493
+      ],
+      "mass_error_kg": -1.7763568394002505e-15,
+      "Rt_error_cm2": -1.1102230246251565e-16,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 8
+    },
+    {
+      "start_cm": [
+        15.352353734252748,
+        0.2588288998897343
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.1468100543791424,
+        0.14827109903574856
+      ],
+      "mass_kg": 4.679999999999999,
+      "g": [
+        2.220446049250313e-16,
+        -0.4446756943632757,
+        -0.27605242412699016,
+        -0.06838520905921508,
+        -0.8926594972810429,
+        -0.32555973045097797,
+        -0.8517289009642515
+      ],
+      "mass_error_kg": -8.881784197001252e-16,
+      "Rt_error_cm2": -1.1102230246251565e-16,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 8
+    },
+    {
+      "start_cm": [
+        6.585470953681684,
+        0.6233581336420398
+      ],
+      "initial_feasible": true,
+      "x_cm": [
+        2.3812617843520494,
+        0.13367278149549275
+      ],
+      "mass_kg": 4.679999999992178,
+      "g": [
+        1.6711076966657856e-12,
+        -0.5486435646430621,
+        -0.10929444359907259,
+        -0.1601091433362889,
+        -0.8809369107823976,
+        -0.25190454719929767,
+        -0.8663272185045072
+      ],
+      "mass_error_kg": -7.821299163879303e-12,
+      "Rt_error_cm2": -5.32018873400375e-13,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 22
+    },
+    {
+      "start_cm": [
+        13.522387975800921,
+        0.5695428808369097
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.1035370866432066,
+        0.15132126179465727
+      ],
+      "mass_kg": 4.679999999984071,
+      "g": [
+        3.40349970429088e-12,
+        -0.42159295124611396,
+        -0.30494331672382446,
+        -0.04922047122469775,
+        -0.8948231456678397,
+        -0.33915433420255336,
+        -0.8486787382053427
+      ],
+      "mass_error_kg": -1.5928591778902046e-11,
+      "Rt_error_cm2": -1.0833556274292278e-12,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 26
+    },
+    {
+      "start_cm": [
+        13.010973752349186,
+        0.26770735325935935
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.187944839357049,
+        0.14548350600888849
+      ],
+      "mass_kg": 4.679999999998929,
+      "g": [
+        2.289279876777073e-13,
+        -0.46536032269911265,
+        -0.24804367884034428,
+        -0.0859001726077695,
+        -0.8906027580321475,
+        -0.312636856621462,
+        -0.8545164939911115
+      ],
+      "mass_error_kg": -1.071143174158351e-12,
+      "Rt_error_cm2": -7.288614156664153e-14,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 11
+    },
+    {
+      "start_cm": [
+        10.245051873854923,
+        0.41234851708527176
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.000011732180638,
+        0.15915400948010103
+      ],
+      "mass_kg": 4.679999999999998,
+      "g": [
+        4.440892098500626e-16,
+        -0.36016375669640277,
+        -0.37167409771391946,
+        -5.866055908243517e-06,
+        -0.8999994133909681,
+        -0.37167778350879077,
+        -0.840845990519899
+      ],
+      "mass_error_kg": -1.7763568394002505e-15,
+      "Rt_error_cm2": -1.1102230246251565e-16,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 12
+    },
+    {
+      "start_cm": [
+        4.725912106490318,
+        0.5459009500299459
+      ],
+      "initial_feasible": true,
+      "x_cm": [
+        2.5000072390291943,
+        0.1273235857937758
+      ],
+      "mass_kg": 4.679999999997112,
+      "g": [
+        6.17061957086662e-13,
+        -0.5905023714956636,
+        -0.01824661022411822,
+        -0.20000231648263456,
+        -0.8749996380485403,
+        -0.21459956239397338,
+        -0.8726764142062242
+      ],
+      "mass_error_kg": -2.887468042445107e-12,
+      "Rt_error_cm2": -1.9645396420742145e-13,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 8
+    },
+    {
+      "start_cm": [
+        13.58197866005967,
+        0.402413611625568
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.0331162780972765,
+        0.15656255847865738
+      ],
+      "mass_kg": 4.679999999995948,
+      "g": [
+        8.657519146026971e-13,
+        -0.38083059509683304,
+        -0.3507016307559795,
+        -0.016288432911603534,
+        -0.8983441860951362,
+        -0.36127768368302426,
+        -0.8434374415213426
+      ],
+      "mass_error_kg": -4.051869950671971e-12,
+      "Rt_error_cm2": -2.756128658631951e-13,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 9
+    },
+    {
+      "start_cm": [
+        8.251267819803573,
+        0.9133908804574467
+      ],
+      "initial_feasible": true,
+      "x_cm": [
+        2.403312429205895,
+        0.13244631963361428
+      ],
+      "mass_kg": 4.679999999915478,
+      "g": [
+        1.8060219986182346e-11,
+        -0.5568880540405159,
+        -0.09272207946050581,
+        -0.16781523047303415,
+        -0.8798343785397053,
+        -0.24497713279893618,
+        -0.8675536803663857
+      ],
+      "mass_error_kg": -8.452172295392302e-11,
+      "Rt_error_cm2": -5.7487348215090606e-12,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 23
+    },
+    {
+      "start_cm": [
+        19.88907196216444,
+        0.8564668634082961
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.0025211167995294,
+        0.15895457157151963
+      ],
+      "mass_kg": 4.6799999999999935,
+      "g": [
+        1.3322676295501878e-15,
+        -0.36176632579614254,
+        -0.3700964064759472,
+        -0.00125897139280029,
+        -0.8998739441600235,
+        -0.3708894370804161,
+        -0.8410454284284804
+      ],
+      "mass_error_kg": -6.217248937900877e-15,
+      "Rt_error_cm2": -4.996003610813204e-16,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 16
+    },
+    {
+      "start_cm": [
+        8.336501352443229,
+        0.1710480483946854
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.4306321682908267,
+        0.13095765387140793
+      ],
+      "mass_kg": 4.679999999999252,
+      "g": [
+        1.5987211554602254e-13,
+        -0.5667930246628137,
+        -0.07197781250817437,
+        -0.17716879333232838,
+        -0.8784683915854586,
+        -0.23639438365172882,
+        -0.8690423461285921
+      ],
+      "mass_error_kg": -7.478462293875054e-13,
+      "Rt_error_cm2": -5.084821452783217e-14,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 9
+    },
+    {
+      "start_cm": [
+        13.067661441655842,
+        0.5196455298700449
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.0335239907222946,
+        0.15653116837310957
+      ],
+      "mass_kg": 4.679999999981158,
+      "g": [
+        4.026112776500668e-12,
+        -0.3810788516973759,
+        -0.3504411894904014,
+        -0.016485662758464525,
+        -0.8983238004638853,
+        -0.361149596982252,
+        -0.8434688316268905
+      ],
+      "mass_error_kg": -1.8841816995518457e-11,
+      "Rt_error_cm2": -1.281474926173587e-12,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 19
+    },
+    {
+      "start_cm": [
+        14.41747597261968,
+        0.544423631781257
+      ],
+      "initial_feasible": false,
+      "x_cm": [
+        2.0906293111590886,
+        0.15225553591785884
+      ],
+      "mass_kg": 4.67999999988709,
+      "g": [
+        2.4126034503524352e-11,
+        -0.4144286050110936,
+        -0.31344719305084134,
+        -0.043350253761075264,
+        -0.8954685344420455,
+        -0.34320943145246596,
+        -0.8477444640821412
+      ],
+      "mass_error_kg": -1.1290968160437842e-10,
+      "Rt_error_cm2": -7.679579194785902e-12,
+      "on_analytic_segment": true,
+      "feasible": true,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 24
+    }
+  ]
+}

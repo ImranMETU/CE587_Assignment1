@@ -1,0 +1,352 @@
+{
+  "x_m": [
+    0.39999999999600294,
+    0.3983012014454935
+  ],
+  "x_cm": [
+    39.99999999960029,
+    39.830120144549355
+  ],
+  "mass_kg": 334.44768492993893,
+  "analytical_x_m": [
+    0.4,
+    0.398301201449541
+  ],
+  "responses": {
+    "area": 0.004260480062801801,
+    "inertia": 0.00033939393939375756,
+    "mass": 334.4476849299414,
+    "bending": 164999999.9984396,
+    "shear": 6572009.505140577,
+    "bending_residual_Pa": -0.0015603899955749512,
+    "shear_residual_Pa": -43427990.49485942,
+    "thickness_m": 0.0016987985505094172
+  },
+  "g": [
+    -9.45188372014627e-12,
+    -0.8685598098971878,
+    -9.992673355441184e-12,
+    -0.004246996386266244,
+    -0.9957530036137338,
+    -0.004246996376273543
+  ],
+  "active": [
+    "bending",
+    "outer maximum"
+  ],
+  "inactive": [
+    "shear",
+    "inner maximum",
+    "inner nonnegative",
+    "positive thickness"
+  ],
+  "guard_m": 1e-08,
+  "feasibility_tolerance": 1e-07,
+  "activity_tolerance": 1e-06,
+  "accepted_runs": 20,
+  "strictly_feasible_runs": 8,
+  "solver_successes": 8,
+  "near_global_runs": 19,
+  "runs": [
+    {
+      "start_m": [
+        0.1,
+        0
+      ],
+      "x_m": [
+        0.10260883026365145,
+        3.620844821879248e-11
+      ],
+      "mass_kg": 2596.504041023285,
+      "max_g": -3.219646771412954e-15,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 7
+    },
+    {
+      "start_m": [
+        0.2,
+        0.1
+      ],
+      "x_m": [
+        0.3999999999960232,
+        0.3983012014455381
+      ],
+      "mass_kg": 334.4476849251793,
+      "max_g": 4.667821684734008e-12,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 24
+    },
+    {
+      "start_m": [
+        0.35,
+        0.3
+      ],
+      "x_m": [
+        0.399999999996087,
+        0.39830120144587167
+      ],
+      "mass_kg": 334.4476848722325,
+      "max_g": 1.621442979882204e-10,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 19
+    },
+    {
+      "start_m": [
+        0.4,
+        0.399
+      ],
+      "x_m": [
+        0.3999999999999946,
+        0.39830120146262216
+      ],
+      "mass_kg": 334.4476823524674,
+      "max_g": 7.654335387741185e-09,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 11
+    },
+    {
+      "start_m": [
+        0.15,
+        0.05
+      ],
+      "x_m": [
+        0.3999999999950592,
+        0.3983012014576178
+      ],
+      "mass_kg": 334.4476823618765,
+      "max_g": 7.638765175954632e-09,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 25
+    },
+    {
+      "start_m": [
+        0.15143515826353532,
+        0.05053494604865439
+      ],
+      "x_m": [
+        0.39999999999592434,
+        0.39830120147587744
+      ],
+      "mass_kg": 334.4476789453852,
+      "max_g": 1.7808431174159978e-08,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 18
+    },
+    {
+      "start_m": [
+        0.10346265020181801,
+        0.06963873374269854
+      ],
+      "x_m": [
+        0.3999999999957573,
+        0.39830120146740816
+      ],
+      "mass_kg": 334.44768057625595,
+      "max_g": 1.2953295103201867e-08,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 21
+    },
+    {
+      "start_m": [
+        0.3057521117895264,
+        0.19985351716734925
+      ],
+      "x_m": [
+        0.3999999999956301,
+        0.39830120144149295
+      ],
+      "mass_kg": 334.44768564230486,
+      "max_g": -1.0924816606916465e-11,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 17
+    },
+    {
+      "start_m": [
+        0.3054626927989773,
+        0.28100870174027215
+      ],
+      "x_m": [
+        0.399999999996,
+        0.3983012014454897
+      ],
+      "mass_kg": 334.4476849301109,
+      "max_g": -9.956702129443329e-12,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 22
+    },
+    {
+      "start_m": [
+        0.12247642221390508,
+        0.0119449250062629
+      ],
+      "x_m": [
+        0.399999999996,
+        0.39830120144548964
+      ],
+      "mass_kg": 334.4476849301218,
+      "max_g": -9.989009619459921e-12,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 23
+    },
+    {
+      "start_m": [
+        0.18286671740216273,
+        0.03467866262655927
+      ],
+      "x_m": [
+        0.3999999999961068,
+        0.39830120140620645
+      ],
+      "mass_kg": 334.44769266853734,
+      "max_g": -9.73299218998136e-12,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 14
+    },
+    {
+      "start_m": [
+        0.3535056866422709,
+        0.04682842794700523
+      ],
+      "x_m": [
+        0.39999999999813934,
+        0.39830120144862363
+      ],
+      "mass_kg": 334.44768473651146,
+      "max_g": 5.610489850482736e-10,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 14
+    },
+    {
+      "start_m": [
+        0.26396782262287716,
+        0.18915097719510643
+      ],
+      "x_m": [
+        0.3999999999911379,
+        0.3983012014487587
+      ],
+      "mass_kg": 334.4476833286475,
+      "max_g": 4.770305039869527e-09,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 20
+    },
+    {
+      "start_m": [
+        0.23171859654862287,
+        0.16435095380542308
+      ],
+      "x_m": [
+        0.3999999999960001,
+        0.39830120144548997
+      ],
+      "mass_kg": 334.4476849300783,
+      "max_g": -9.859890681696015e-12,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 17
+    },
+    {
+      "start_m": [
+        0.1386309873030328,
+        0.09298262393550101
+      ],
+      "x_m": [
+        0.39999999999594943,
+        0.39830120142549147
+      ],
+      "mass_kg": 334.4476888488674,
+      "max_g": -1.0126455229908515e-11,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 27
+    },
+    {
+      "start_m": [
+        0.3419640256777794,
+        0.2864289883116457
+      ],
+      "x_m": [
+        0.3999999999959884,
+        0.3983012014889724
+      ],
+      "mass_kg": 334.44767638546296,
+      "max_g": 2.5429872207993753e-08,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 17
+    },
+    {
+      "start_m": [
+        0.3581892302841299,
+        0.1876940279844
+      ],
+      "x_m": [
+        0.3999999999452024,
+        0.39830120142921016
+      ],
+      "mass_kg": 334.44767810633357,
+      "max_g": 2.0434406167169072e-08,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 18
+    },
+    {
+      "start_m": [
+        0.2790561785623661,
+        0.19615073395083685
+      ],
+      "x_m": [
+        0.39999999999600294,
+        0.3983012014454935
+      ],
+      "mass_kg": 334.44768492993893,
+      "max_g": -9.45188372014627e-12,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "iterations": 15
+    },
+    {
+      "start_m": [
+        0.3375117102087491,
+        0.18332349945904552
+      ],
+      "x_m": [
+        0.39999999999779273,
+        0.3983012014570147
+      ],
+      "mass_kg": 334.4476830196684,
+      "max_g": 5.673443270737266e-09,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 22
+    },
+    {
+      "start_m": [
+        0.2889344267591232,
+        0.20638134589024007
+      ],
+      "x_m": [
+        0.3999999999971301,
+        0.3983012014479167
+      ],
+      "mass_kg": 334.44768467627506,
+      "max_g": 7.429341586373539e-10,
+      "success": false,
+      "message": "Positive directional derivative for linesearch",
+      "iterations": 17
+    }
+  ]
+}
